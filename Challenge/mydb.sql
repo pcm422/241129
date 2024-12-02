@@ -1,4 +1,5 @@
 mysql -u root -p
+USE mysql;
 CREATE USER 'fishbread_user'@'localhost' IDENTIFIED BY '1234';
 GRANT ALL PRIVILEGES ON *.* TO 'fishbread_user'@'localhost';
 FLUSH PRIVILEGES;
